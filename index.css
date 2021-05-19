@@ -1,54 +1,43 @@
 body{
-	background:linear-gradient(to right, #000000, red);
-
+	background:linear-gradient(to right,#000000,red);
 	margin:0px;
 }
-.intro{
-	background-color: #000000;
-	color: white;
-	text-align: center;
+.intro {
+	background-color:#000000;
+	color:white;
+	text-align:center;
 	padding:30px;
 	font-size:18px;
-
-
-
-
-
 }
+
 .intro h1{
-	font-size: 60px;
-	background:linear-gradient(to right ,red ,#000000);
- 
-
-	
+	font-size:60px;
+	background:linear-gradient(to right, red, #000000);
 
 }
 
-.intro2{
-	background-color: #000000;
-	color: white;
+.intro2 {
+	background-color:#000000;
+	color:white;
 	text-align: center;
 	font-size:18px;
 	
-
-
 }
-.intro2 h1{
-	font-size: 40px;
-	background:linear-gradient(to right, red,#000000);
-}
+
+.intro2 h1 {
+	font-size:40px;
+	background:linear-gradient(to right, red, #000000);
+     }
+
 .footer {
 	text-align:center;
 	color:white;
 	background-color:#000000;
+	
+	
 	font-size:18px;
 }
-.footer h1{
-background:linear-gradient(to right, red,#000000);
 
-
-
+.footer h1 {
+	background:linear-gradient(to right, red, #000000);
 }
-
-
-
