@@ -44,16 +44,21 @@ body{
 .place{
 	margin-left:33%;
 	color:white;
+	display:flex;
+	
+}
+
+.change{
+	flex-direction:coloumn;
 	
 }
 .contact{
 	margin-top:30px;
 }
+
 .cv{
 	margin-top:30px;
-	
 }
-.site{
+.sitereport{
 	margin-top:30px;
-	
 }
