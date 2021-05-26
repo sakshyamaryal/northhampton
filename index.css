@@ -1,6 +1,27 @@
 body{
 	background:linear-gradient(to right,#000000,red);
 	margin:0px;
+	color:white;
+}
+nav ul{
+	margin:5px;
+	padding:0%;
+	
+}
+nav ul li{
+	background:grey;
+	list-style:none;
+	float:left;
+	margin:5px;
+	padding:1%;
+}
+
+
+
+.web{
+	text-align:center;
+	color:white;
+	
 }
 .intro {
 	background-color:#000000;
@@ -8,6 +29,8 @@ body{
 	text-align:center;
 	padding:30px;
 	font-size:18px;
+	
+	
 }
 
 .intro h1{
@@ -21,6 +44,7 @@ body{
 	color:white;
 	text-align: center;
 	font-size:18px;
+	
 	
 }
 
@@ -40,7 +64,35 @@ body{
 
 .footer h1 {
 	background:linear-gradient(to right, red, #000000);
+
 }
+.pic{
+	display:flex;
+	margin-left:20px;
+}
+.pic2{
+	
+	margin-left:20px;
+}
+.pic3{
+	
+	margin-left:20px;
+}
+.pic4{
+	
+	margin-left:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -74,6 +126,10 @@ body{
 	margin-top:30px;
 	
 }
+
+
+
+
 
 
 
@@ -142,6 +198,13 @@ form input[type="radio"]{
 
 
 
+
+
+
+
+
+
+
 *{
 	box-sizing: border-box;
 }
@@ -171,12 +234,14 @@ form input[type="radio"]{
 	grid-row:2/4;
 	padding:10px;
 	
+	
 }
 .item2{
 	color:white;
 	grid-column:2/5;
 	grid-row:2/3;
 	padding:10px;
+	
 	background:linear-gradient(to right,red,#000000)
 }
 .item3{
@@ -193,6 +258,7 @@ form input[type="radio"]{
 	background:linear-gradient(to right,red,#000000);
 	padding:10px;
 	
+	
 }
 
 .foot{
@@ -201,7 +267,7 @@ form input[type="radio"]{
 	grid-column:1/4;
 	background:linear-gradient(to right,red,#000000);
 	padding:10px;
-	
+	font-size:20px;
 }
 .item2 h1{
 	text-align:center;
@@ -224,4 +290,14 @@ form input[type="radio"]{
 	font-size:50px;
 	text-align:center;
 	background-color:#000000;
+}
+
+
+
+
+
+
+.site{
+	color:white;
+	text-align:center;
 }
