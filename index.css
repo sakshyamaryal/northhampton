@@ -1,7 +1,12 @@
-body{
+/*body{
 	background:linear-gradient(to right,#000000,red);
 	margin:0px;
 	
+}*/
+.index-bg{
+	background-image:url(lamp.png);
+	background-repeat:no-repeat;
+	background-size:100%;
 }
 nav ul{
 	margin:5px;
@@ -26,70 +31,27 @@ nav ul li{
 	
 }*/
 
-.web{
-	text-align:center;
-	
-	color:#ffffff;
-	
-}
+
 .intro {
-	background-color:#000000;
+
 	color:#ffffff;
 	text-align:center;
 	padding:30px;
 	font-size:18px;
-	
+
 	
 }
 
 .intro h1{
 	font-size:60px;
-	background:linear-gradient(to right, red, #000000);
+	/*background:linear-gradient(to right, red, #000000);*/
+    color:#ffffff;
 
 }
 
-.intro2 {
+.intro p{
 	background-color:#000000;
-	color:#ffffff;
-	text-align: center;
-	font-size:18px;
-	
-	
-}
-
-.intro2 h1 {
-	font-size:40px;
-	background:linear-gradient(to right, red, #000000);
- }
-
-.footer {
-	text-align:center;
-	color:#ffffff;
-	background-color:#000000;
-	
-	
-	font-size:18px;
-}
-
-.footer h1 {
-	background:linear-gradient(to right, red, #000000);
-
-}
-.pic{
-	display:flex;
-	margin-left:20px;
-}
-.pic2{
-	
-	margin-left:20px;
-}
-.pic3{
-	
-	margin-left:20px;
-}
-.pic4{
-	
-	margin-left:20px;
+	opacity:0.6;
 }
 
 
@@ -107,7 +69,10 @@ nav ul li{
 
 
 
-
+.port-bg{
+	background:linear-gradient(to right,#000000,red);
+	margin:0px;
+}
 
 
 .place{
@@ -144,7 +109,10 @@ nav ul li{
 
 
 
-
+.contacta-bg{
+	background:linear-gradient(to right,#000000,red);
+	margin:0px;
+}
 
 .contact{
 	font-size:20px;
@@ -212,11 +180,15 @@ form input[type="radio"]{
 
 
 
-
+.cv-bg{
+	background:linear-gradient(to right,#000000,red);
+	margin:0px;
+}
 
 *{
 	box-sizing: border-box;
 }
+
 .container{
 	display: grid;
 	grid-template-columns: 500px auto auto auto;
@@ -314,7 +286,10 @@ form input[type="radio"]{
 
 
 
-
+.siter-bg{
+	background:linear-gradient(to right,#000000,red);
+	margin:0px;
+}
 
 .site{
 	color:#ffffff;
