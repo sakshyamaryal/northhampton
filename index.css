@@ -1,24 +1,47 @@
+
 /*body{
 	background:linear-gradient(to right,#000000,red);
 	margin:0px;
 	
 }*/
+
+
+
+
+
 .index-bg{
 	background-image:url(lamp.png);
 	background-repeat:no-repeat;
 	background-size:100%;
 }
+/*.menu{
+	display:flex;
+	list-style:none;
+	
+}
+.menu1{
+	background:grey;
+	
+}*/
 nav ul{
 	margin:5px;
 	padding:0%;
+	text-decoration:none;
 	
 }
 nav ul li{
+	text-decoration:none;
 	background:grey;
 	list-style:none;
 	float:left;
 	margin:5px;
-	padding:1%;
+	padding:5px;
+	
+}
+nav ul li a:hover{
+	color:green;
+	background-color:red;
+	
 }
 /*main{
 	background-image:url(library.png);
@@ -110,8 +133,11 @@ nav ul li{
 
 
 .contacta-bg{
-	background:linear-gradient(to right,#000000,red);
+	/*background:linear-gradient(to right,#000000,red);*/
 	margin:0px;
+    background-image:url(cont.png);
+	background-repeat:no-repeat;
+	background-size:100%;
 }
 
 .contact{
@@ -119,10 +145,12 @@ nav ul li{
 	background-color:#000000;
 	color:#ffffff;
 	text-align:center;
+	opacity:0.6;
 }
 .contact h1{
 	font-size:40px;
 	background:linear-gradient(to right,red,#000000);
+	
 }
 
 .fname{
@@ -133,10 +161,11 @@ nav ul li{
 
 .name{
 	color:#ffffff;
-	margin-left:110px;
+	margin-left:130px;
 	font-size:30px;
-	
-
+	/*background-color:#000000;
+	opacity:0.6;
+	padding:20px;*/
 }
 
 	
@@ -145,6 +174,9 @@ nav ul li{
 	color:#ffffff;
 	margin-left:90px;
 	font-size:20px;
+	background-color:#000000;
+	opacity:0.6;
+	padding:18px;
 }
 .mage{
 	
@@ -156,6 +188,7 @@ form input[type="radio"]{
 	display:none;
 	
 }
+/*https://www.w3schools.com/css/css_form.asp*/
  .summit{
 	height:60px;
 	margin:45px 0;
@@ -180,14 +213,14 @@ form input[type="radio"]{
 
 
 
-.cv-bg{
+/*.cv-bg{
 	background:linear-gradient(to right,#000000,red);
 	margin:0px;
-}
+}*/
 
-*{
+/*{
 	box-sizing: border-box;
-}
+}*/
 
 .container{
 	display: grid;
@@ -201,13 +234,15 @@ form input[type="radio"]{
 .container> div{
 	background-color:white;
 }
+/*https://developer.mozilla.org/en-US/docs/Web/CSS/grid-column*/
 .top{
 	color:#ffffff;
 	grid-column:1/5;
+	
 	text-align:center;
 	padding: 10px;
 	font-size:40px;
-	background:linear-gradient(to right,grey,#000000)
+	background:linear-gradient(to right,grey,#000000);
 
 	
 }
@@ -287,13 +322,17 @@ form input[type="radio"]{
 
 
 .siter-bg{
-	background:linear-gradient(to right,#000000,red);
+	background:linear-gradient(#000000,red);
+    /*background-image:url(glass.png);*/
+	background-repeat:no-repeat;
+	background-size:100%;
 	margin:0px;
 }
 
 .site{
 	color:#ffffff;
 	text-align:center;
+	
 }
 
 
@@ -311,10 +350,20 @@ form input[type="radio"]{
 	padding: 10px;
 	text-align:justify;
 	box-sizing:border-box;
-	
+	animation-name:example;
+	animation-duration:60s;
+	animation-delay:2s;
+}
+@keyframes example{
+	0%{background-color:#ffffff;}
+	25%{background-color:green;}
+	50%{background-color:yellow;}
+	75%{background-color:red;}
+	100%{background-color:grey;}
 }
 .sec> div{
 	background-color:#000000;
+	
 }
 .topic{
 	grid-column:1/5;
@@ -382,11 +431,21 @@ form input[type="radio"]{
     background:linear-gradient(to right,red,#000000);
 }
 
+
 .images{
-	display:flex;
-    color:#ffffff;
+	font-size:30px;
+	color:#ffffff;
 	text-align:center;
 }
 .images{
-	font-size:50px;
+	
 }
+.logo{
+	display:flex;
+}
+.validation{
+	color:#ffffff;
+	text-align:center;
+}
+@media screen and (max-width:600px)
+
