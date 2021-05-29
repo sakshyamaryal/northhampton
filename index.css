@@ -23,26 +23,43 @@
 	background:grey;
 	
 }*/
+nav{
+	text-decoration:none;
+	color:whitt;
+}
 nav ul{
 	margin:5px;
 	padding:0%;
 	text-decoration:none;
+	color:#ffffff;
 	
 }
 nav ul li{
+	color:#ffffff;
 	text-decoration:none;
 	background:grey;
 	list-style:none;
 	float:left;
 	margin:5px;
-	padding:5px;
+	padding:4px;
 	
 }
 nav ul li a:hover{
 	color:green;
 	background-color:red;
+	padding:7px;
+	
 	
 }
+
+/*nav div{
+    width: 35px;
+    height: 5px;
+    background-color: #ffffff;
+    margin: 6px 0;
+	text-decoration:none;
+	opacity:0.6;
+}*/
 /*main{
 	background-image:url(library.png);
 	background-size:100%;
@@ -351,7 +368,7 @@ form input[type="radio"]{
 	text-align:justify;
 	box-sizing:border-box;
 	animation-name:example;
-	animation-duration:60s;
+	animation-duration:40s;
 	animation-delay:2s;
 }
 @keyframes example{
@@ -447,5 +464,13 @@ form input[type="radio"]{
 	color:#ffffff;
 	text-align:center;
 }
-@media screen and (max-width:600px)
+/*@media screen and (max-width:600px){
+	section{
+	
+     width: 35px;
+     height: 5px;
+     background-color: black;
+      margin: 6px 0;
+	}
+}*/
 
