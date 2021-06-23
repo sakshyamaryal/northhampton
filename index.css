@@ -567,6 +567,98 @@ form input[type="radio"]{
 		padding:1px;
 	}
 	
+	/*https://www.youtube.com/watch?v=F-mvXKKoSCU*/
+	#menu{
+	width: 35px;
+	height: 30px;
+	margin: 10px 0 10px 10px;
+	/*cursor: pointer;*/
+}
+.hambar{
+	height: 5px;
+	width: 100%;
+	background-color: #850934;
+	/*https://htmlcolorcodes.com*/
+	display: block;
+	border-radius: 5px;
+	margin-bottom: 0px;
+	transition: 0.3s ease;
+}
+#hambar1{
+	transform: translateY(-3px);
+}
+#hambar3{
+	transform: translateY(3px);
+}
+.nav li a{
+	color: #fff;
+	text-decoration: none;
+}
+.nav li a:hover{
+	font-weight: bold;
+}
+.nav li{
+	list-style: none;
+	padding: 16px 0;
+}
+.nav{
+	padding: 0;
+	margin: 0 20px;
+	transition: 0.2s ease;
+	display: none;
+}
+.menu-bg, #menu-bar{
+	top: 0;
+	position: fixed;
+
+}
+.menu-bg{
+	
+	width: 0;
+	height: 0;
+	margin: 30px 0 20px 20px;
+
+	transition: 0.3s ease;
+}
+
+.change-bg{
+	width: 300px;
+	height: 300px;
+	transform: translate(-60%,-30%);
+}
+.change .hambar{
+	background-color: white;
+}
+.change #hambar1{
+	transform: translateY(4px) rotateZ(-45deg);
+}
+.change #hambar3{
+	transform: translateY(-6px) rotate(45deg);
+}
+.change #hambar2{
+	opacity: 0;
+}
+.change{
+	display: block;
+}
+	
+	/*https://www.youtube.com/watch?v=F-mvXKKoSCU*/
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	.intro h1{
@@ -968,7 +1060,8 @@ width:60%;
 }
 	
 
-@media only screen and (max-width: 300px){
+@media only screen and (max-width: 320px){
+	
 	  .ind{
 	  width:150px;
 	  height:100px;
@@ -989,4 +1082,29 @@ width:60%;
   }
   
   
+}
+
+@media only screen and (max-width: 400px){
+	.index-bg{
+/*	background-image:url(mage/lamp.png);
+	background-repeat:repeat;
+	background-size:100%;
+	*/
+	background-color:black;
+}
+}
+
+
+
+@media only screen and (max-width: 340px){
+
+.contacta-bg{
+	background:linear-gradient(to right,#000000,red);
+	margin:0px;
+    /*background-image:url(mage/cont.png);
+	background-repeat:no-repeat;
+
+	background-size:100%;*/
+	
+}
 }
