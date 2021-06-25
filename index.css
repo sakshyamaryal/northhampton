@@ -472,6 +472,9 @@ form input[type="radio"]{
 	color:#ffffff;
 	text-align:center;
 }
+.image1 p{
+	background-color:#000000;
+}
 .logo{
 	display:flex;
 }
