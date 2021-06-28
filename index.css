@@ -1257,13 +1257,14 @@ width:250px;
 
 
 @media only screen and (max-width: 450px){
+	
+	
   .wel{
 	  font-size:12px;
   }
-  .picture{
-	  
-  }
+  
   .pic{
-	  	  width:225px;
-	  height:150px;
+	  width:225px;
+  height:150px;
   }
+}
