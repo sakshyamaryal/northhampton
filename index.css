@@ -124,19 +124,34 @@ nav ul li a:hover{
 	background:linear-gradient(to right,#000000,red);
 	margin:0px;
 }
+.picture{
+	float:left;
+	margin-left:30px;
 
+}
+.wel{
+	color:white;
+	text-align:center;
+	background-color:#000000;
+	opacity:0.8;
+}
 
-.place{
+/*.place{
 	margin-left:33%;
 	color:#ffffff;
 	display:flex;
 	
 }
 
-/*.change{
+.change{
 	flex:column;
-}*/
+}
+.ind{
+margin-left:5px;;
+}
+.contact{
 	
+}
 
 .contact{
 	margin-top:30px;
@@ -150,7 +165,9 @@ nav ul li a:hover{
 .sitereport{
 	margin-top:30px;
 	
-}
+}*/
+
+
 
 
 
@@ -680,9 +697,17 @@ form input[type="radio"]{
   
   
   
-  
-  
-  .ind{
+  /*.wel{
+	  font-size:12px;
+  }
+  .picture{
+	  
+  }
+  .pic{
+	  	  width:225px;
+	  height:150px;
+  }*/
+  /*.ind{
 	  width:225px;
 	  height:150px;
 	  
@@ -699,7 +724,7 @@ form input[type="radio"]{
   .sitereport{
 	  width:225px;
 	  height:150px;
-  }
+  }*/
   
   
   
@@ -762,7 +787,7 @@ form input[type="radio"]{
 	
 	grid-column:1/3;
 	
-	text-align:left;
+	text-align:center;
     width:66%; 
 	font-size:10px;
 	}
@@ -879,7 +904,7 @@ form input[type="radio"]{
 	padding:1px;
 	text-align:left;
 	font-size:7px;
-width:60%;
+width:70%;
 	}
 
     .topic1{
@@ -887,11 +912,11 @@ width:60%;
 	grid-column:1/3;
 	font-size:7px;
      text-align:left;
-	width:300px;
+	width:350px;
    }
    .topic1 h1{
 	font-size:8px;
-	width:300px;
+	width:350px;
 	text-align:left;
 	
 	
@@ -907,13 +932,13 @@ width:60%;
 	grid-column:1/3;
 	grid-row-start:3;
 	font-size:7px;
-	width:300px;
+	width:350px;
 	text-align:left;
 	
     }
    .topic2 h1{
 	font-size:9px;
-	width:300px;
+	width:350px;
 	text-align:left;
 	
     }
@@ -921,26 +946,26 @@ width:60%;
 	grid-row-start:4;
 	grid-column:1/3;
 	font-size:7px;
-	width:300px;
+	width:350px;
 	
 	text-align:left;
 	
    }
    .topic3 h1{
 	font-size:9px;
-	width:300px;
+	width:350px;
 	text-align:left;
     }
     .topic4{
 	grid-row-start:5;
 	grid-column:1/3;
-	width:300px;
+	width:350px;
 	font-size:7px;
 	text-align:left;
     }
     .topic4 h1{
 	font-size:9px;
-	width:300px;
+	width:350px;
 	text-align:left;
     }
     .topic5{
@@ -948,10 +973,10 @@ width:60%;
 	grid-column:1/3;
 	font-size:7px;
 	text-align:left;
-	width:300px;
+	width:350px;
     }
     .topic5 h1{
-		width:300px;
+		width:350px;
 	font-size:9px;
 	text-align:left;
     }
@@ -1063,9 +1088,18 @@ width:60%;
 }
 	
 
-@media only screen and (max-width: 320px){
-	
-	  .ind{
+@media only screen and (max-width: 270px){
+   .wel{
+	  font-size:12px;
+  }
+  .picture{
+	  
+  }
+  .pic{
+	  width:150px;
+	  height:100px;
+  }
+	/*  .ind{
 	  width:150px;
 	  height:100px;
 	  
@@ -1082,12 +1116,12 @@ width:60%;
   .sitereport{
 	  width:150px;
 	  height:100px;
-  }
+  }*/
   
   
 }
 
-@media only screen and (max-width: 400px){
+@media only screen and (max-width: 380px){
 	.index-bg{
 /*	background-image:url(mage/lamp.png);
 	background-repeat:repeat;
@@ -1111,3 +1145,125 @@ width:60%;
 	
 }
 }
+
+
+@media only screen and (max-width: 357px){
+	
+   .topic{
+	
+    width:280px;
+	}
+
+    .topic1{
+	width:280px;
+   }
+   .topic1 h1{
+	
+width:280px;
+	
+  }
+  
+	
+	.topic2{
+	width:280px;
+	
+    }
+   .topic2 h1{
+	width:280px;
+	
+    }
+   .topic3{
+	width:280px;
+
+	
+   }
+   .topic3 h1{
+   width:280px;
+   }
+    .topic4{
+	width:280px;
+    }
+    .topic4 h1{
+	width:150px;
+    }
+    .topic5{
+	width:280px;	
+	}
+	
+	
+    
+    .topic5 h1{
+     width:280px;
+	
+    }
+	
+	
+}
+@media only screen and (max-width: 324px){
+	
+   .topic{
+	
+    width:250px;
+	}
+
+    .topic1{
+	width:250px;
+   }
+   .topic1 h1{
+	
+width:250px;
+	
+  }
+  
+	
+	.topic2{
+	width:250px;
+	
+    }
+   .topic2 h1{
+	width:250px;
+	
+    }
+   .topic3{
+	width:250px;
+
+	
+   }
+   .topic3 h1{
+   width:250px;
+   }
+    .topic4{
+	width:250px;
+    }
+    .topic4 h1{
+	width:250px;
+    }
+    .topic5{
+	width:250px;	
+	}
+	
+	
+    
+    .topic5 h1{
+     width:250px;
+	
+    }
+	
+	
+}
+
+
+
+
+
+@media only screen and (max-width: 450px){
+  .wel{
+	  font-size:12px;
+  }
+  .picture{
+	  
+  }
+  .pic{
+	  	  width:225px;
+	  height:150px;
+  }
