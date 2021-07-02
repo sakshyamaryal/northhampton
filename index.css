@@ -1349,3 +1349,57 @@ width:300px;
   height:150px;
   }
 }
+
+
+@media only screen and (max-width: 340px){
+	
+   .topic{
+	
+    width:250px;
+	}
+
+    .topic1{
+	width:250px;
+   }
+   .topic1 h1{
+	
+width:250px;
+	
+  }
+  
+	
+	.topic2{
+	width:250px;
+	
+    }
+   .topic2 h1{
+	width:250px;
+	
+    }
+   .topic3{
+	width:250px;
+
+	
+   }
+   .topic3 h1{
+   width:250px;
+   }
+    .topic4{
+	width:250px;
+    }
+    .topic4 h1{
+	width:250px;
+    }
+    .topic5{
+	width:250px;	
+	}
+	
+	
+    
+    .topic5 h1{
+     width:250px;
+	
+    }
+	
+	
+}
